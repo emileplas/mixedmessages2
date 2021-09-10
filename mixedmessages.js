@@ -10,6 +10,7 @@
 const prompt = require('prompt-sync')({sigint: true});
 
 //declaration of leaveProgram
+var notacceptedAnswer = false;
 var leaveProgram = false;
 
 //declaration of mixed messages array
@@ -34,7 +35,7 @@ console.log("\n" +
 "\n Everytime you type YES to the question do you want to know more, you will be given a random messages about Emile and Raquel so you can get to know them more." +
 "\n" +
 "\n"); 
-const input = prompt("Do you want to get to know more about Raquel and Emile? ", "answer");
+
 
 //create a mixed message
 function mixedmessages(){
@@ -44,19 +45,23 @@ function mixedmessages(){
 
 
 //check input from user
-if (input === "YES" || input === "yes" || input === " yes" || input === " YES") {
-    console.log("\n");
-    mixedmessages();
-    console.log("\n");
-    var firstAnswer = 1
-  } else {
-    console.log(
-        "\n" +
-        "INVALID INPUT" +
-        '\n To get a fun fact about Raquel and Emile, you need to type YES.' +
-        "\n");
-  
-  }
+while (notacceptedAnswer === false) {
+    const input = prompt("Do you want to get to know more about Raquel and Emile? ", "answer");
+    if (input === "YES" || input === "yes" || input === " yes" || input === " YES") {
+        console.log("\n");
+        mixedmessages();
+        console.log("\n");
+        var firstAnswer = 1
+        notacceptedAnswer = true;
+    } else {
+        console.log(
+            "\n" +
+            "INVALID INPUT" +
+            '\n To get a fun fact about Raquel and Emile, you need to type YES.' +
+            "\n");
+    
+    }
+}
 
 while (leaveProgram === false) {
     if (firstAnswer === 1){
