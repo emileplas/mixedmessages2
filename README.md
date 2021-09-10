@@ -28,7 +28,7 @@ Github
 
 ## 3. How to launch and system requirements
 
-For running the program Node.js needs to be installed. If node.js is not installed, it can be downloaded https://nodejs.org/en/ [here] (https://nodejs.org/en/)
+For running the program Node.js needs to be installed. If node.js is not installed, it can be downloaded here: https://nodejs.org/en/
 
 Once node.js is installed, the program can be launched by running the following command: node mixedmessages.js
 
@@ -40,4 +40,4 @@ After the user has got a first fun fact, the user will be asked whether he or sh
 
 ## 5. Project status
 
-This project is not finished. Update expected soon.
+This project is finished.
