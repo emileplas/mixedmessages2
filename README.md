@@ -36,7 +36,13 @@ Once node.js is installed, the program can be launched by running the following 
 
 The program will launch in the console and ask the user whether or not they want to know a fun fact. If the user answers yes, the program will give a random fun fact from an array. If the user answers another question, an error message will show. 
 
+![picture1](https://drive.google.com/file/d/1kv7WtLwXQCJNH6cYS7wUvQ8lWOd1e0hc/view?usp=sharing)
+
+
 After the user has got a first fun fact, the user will be asked whether he or she wants to recieve a new fun fact. If not, the program will end. If the user answers yes, the program will generate a new fun fact. This process keeps running untill the player answers no and decides to leave the program.
+
+![picture2](https://drive.google.com/file/d/1r2643NrTnwWj_XVfh8Ypq9hylzr6uc3j/view?usp=sharing)
+![picture3](https://drive.google.com/file/d/1mrvtfpYKXuyc280FcGvnjGkMq86W4Kyc/view?usp=sharing)
 
 ## 5. Project status
 
