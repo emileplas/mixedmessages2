@@ -15,6 +15,7 @@ var messagesArray = [
     "Raquel and Emile met in Spain.",
     "Raquel and Emile their first trip to a foreign country as a couple was Portugal.",
     "Raquel and Emile spent a few months in a long distance relationship after dating only a few weeks.",
+    "Raquel and Emile are both huge fans of dogs."
 ]
 
 //log to user screen
